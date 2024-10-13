@@ -1,0 +1,167 @@
+/* Typography */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h2 {
+  font-weight: 700;
+  color: #4CAF50;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Container */
+.container {
+  margin-top: 40px;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  color: #777;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #43A047;
+}
+
+.btn-warning {
+  background-color: #FF9800;
+  color: white;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #F57C00;
+}
+
+.btn-danger {
+  background-color: #F44336;
+  color: white;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #D32F2F;
+}
+
+.btn-success {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  margin-top: 30px;
+}
+
+.btn-success:hover {
+  background-color: #43A047;
+}
+
+/* Search Bar */
+.input-group {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-control {
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+}
+
+.input-group-append .btn {
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+}
+
+/* Grid Layout for Books */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.col-md-4 {
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+
+/* Footer (optional) */
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #E8F5E9;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .col-md-4 {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

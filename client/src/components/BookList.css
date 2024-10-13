@@ -1,0 +1,53 @@
+/* BookList.css */
+
+.custom-input {
+    border-radius: 5px 0 0 5px;
+}
+
+.input-group-append .btn-primary {
+    border-radius: 0 5px 5px 0;
+}
+
+.card {
+    border: 1px solid #ddd;
+    background-color: rgb(233, 207, 173);
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn-primary {
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+.text-center h2 {
+    font-weight: bold;
+    font-size: 24px;
+}

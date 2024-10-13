@@ -1,0 +1,26 @@
+/* BookDetail.css */
+
+/* Card styling */
+.card {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+/* Title styling */
+.text-primary {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Lead text styling */
+.lead {
+    font-size: 1.2rem;
+    color: #343a40; /* Dark gray */
+}
+
+/* General container padding */
+.container {
+    padding: 20px;
+}
